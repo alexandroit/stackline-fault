@@ -4,7 +4,7 @@
     {
       "name": "@stackline/fault",
       "path": "readme.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -23,8 +23,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/fault/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/fault/-/fault-1.0.0.tgz",
       "baselineIntegrity": "sha512-p5pLsnP1n931CkqfWqb7H1/fD/zUnJKVsI3jjdg8TbWFgZN6TQQrD/Lh7zWKvm1Wyaqn08bxpJwq6yczqtcVmw==",
-      "expectedSha512": "b3abd09fd11a81c3d8d75c7db1654102437201ee39e9702803ebebcdcfc502e3f4dc377419c227ed9a0e4c39c615054f7c078e7a0ff834da3d97bf74b551be89",
-      "tag": "docs-stackline-fault-v1.0.1"
+      "expectedSha512": "235dd24b5226a0a9bd2c756d40d224cd8c0fd41157ef3799814f4f786315437fa030a32f8707d77a71836509371cf0502e58bab789e10c7eee4b72f323ed8dc4",
+      "tag": "docs-stackline-fault-v1.0.2"
     }
   ]
 }
