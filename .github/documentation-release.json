@@ -1,0 +1,30 @@
+{
+  "repository": "alexandroit/stackline-fault",
+  "packages": [
+    {
+      "name": "@stackline/fault",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "fault",
+        "typescript",
+        "error",
+        "exception",
+        "printf",
+        "sprintf",
+        "vsprintf",
+        "format",
+        "string",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/fault/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/fault/-/fault-1.0.0.tgz",
+      "baselineIntegrity": "sha512-p5pLsnP1n931CkqfWqb7H1/fD/zUnJKVsI3jjdg8TbWFgZN6TQQrD/Lh7zWKvm1Wyaqn08bxpJwq6yczqtcVmw==",
+      "expectedSha512": "b3abd09fd11a81c3d8d75c7db1654102437201ee39e9702803ebebcdcfc502e3f4dc377419c227ed9a0e4c39c615054f7c078e7a0ff834da3d97bf74b551be89",
+      "tag": "docs-stackline-fault-v1.0.1"
+    }
+  ]
+}
