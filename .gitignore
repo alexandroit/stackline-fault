@@ -4,3 +4,8 @@ node_modules/
 *.log
 .DS_Store
 yarn.lock
+
+node_modules/
+artifact/
+.package-consumer/
+*.tgz

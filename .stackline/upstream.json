@@ -1,0 +1,20 @@
+{
+  "upstream": "fault",
+  "fork": "@stackline/fault",
+  "repository": "alexandroit/stackline-fault",
+  "upstreamRepository": "wooorm/fault",
+  "upstreamVersion": "2.0.1",
+  "sourceCommit": "f2e9b858dae4683a04e437713fd3b2ee513a08e5",
+  "upstreamIntegrity": "sha512-WtySTkS4OKev5JtpHXnib4Gxiurzh5NCGvWrFaZ34m6JehfTUhKZvn9njTfw48t6JumVQOmrKqpmGcdwxnhqBQ==",
+  "status": "source-ready",
+  "files": {
+    "license": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf",
+    "index.js": "ebc933af9f9154541ecc64e7217cd9d8ed10410c719edeb0a69ad20337cf9ef7",
+    "package.json": "84985c17da60466dcd5449c37d1061c0194a615217ce17879d6663679eebc1dd",
+    "readme.md": "e15bc5b21ffa32d575df324e8798c49096684cd6e751fa48713ca584caf16ba2",
+    "index.d.ts": "4f724580d99674087429a702da95162e7db05b47fd4174f813b4c922858832bc"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "node --conditions development test.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}
