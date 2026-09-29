@@ -1,25 +1,52 @@
 # @stackline/fault
 
-Independent maintenance fork of `fault@2.0.1`, preserving its API and published type declarations.
+> Functional errors with formatted output.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/fault.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/fault)
+[![license](https://img.shields.io/npm/l/@stackline/fault.svg?style=flat-square)](https://github.com/alexandroit/stackline-fault)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-fault-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-fault)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/fault/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/fault/)** | **[npm](https://www.npmjs.com/package/@stackline/fault)** | **[Issues](https://github.com/alexandroit/stackline-fault/issues)** | **[Repository](https://github.com/alexandroit/stackline-fault)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/fault` is the Stackline-maintained distribution of `fault@2.0.1`. It is an independent continuation of [fault](https://github.com/wooorm/fault); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/fault@1.0.1` |
+| API target | `fault@2.0.1` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `format` |
+
+## Installation
+
+```bash
 npm install @stackline/fault
-# Keep existing imports:
-npm install fault@npm:@stackline/fault@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-fault/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install fault@npm:@stackline/fault
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# fault
+### fault
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
 
 Functional errors with formatted output.
 
@@ -53,7 +80,7 @@ This package is [ESM only][esm].
 In Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:
 
 ```sh
-npm install fault
+npm install @stackline/fault
 ```
 
 In Deno with [Skypack][]:
@@ -73,7 +100,7 @@ In browsers with [Skypack][]:
 ## Use
 
 ```js
-import {fault} from 'fault'
+import {fault} from '@stackline/fault'
 
 throw fault('Hello %s!', 'Eric')
 ```
@@ -90,7 +117,7 @@ Error: Hello Eric!
 Or, format a float in a type error:
 
 ```js
-import {fault} from 'fault'
+import {fault} from '@stackline/fault'
 
 throw fault.type('Who doesn’t like %f? 🍰', Math.PI)
 ```
@@ -184,7 +211,7 @@ See [How to Contribute to Open Source][contribute].
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/wooorm/fault/workflows/main/badge.svg
 
@@ -231,3 +258,22 @@ See [How to Contribute to Open Source][contribute].
 [typeerror]: https://developer.mozilla.org/JavaScript/Reference/Global_Objects/TypeError
 
 [urierror]: https://developer.mozilla.org/JavaScript/Reference/Global_Objects/URIError.
+
+## Credits and original authors
+
+- Original project: [fault](https://github.com/wooorm/fault).
+- Titus Wormer.
+- Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
